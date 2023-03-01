@@ -2,12 +2,10 @@ name: Broken Link Checker
 uses: ruzickap/action-my-broken-link-checker@v1.0.3
 
 
-
 on:
   push:
     branches:
       - main
-
 
 jobs:
   broken-link-checker:
